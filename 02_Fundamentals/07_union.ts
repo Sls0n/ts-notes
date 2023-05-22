@@ -17,8 +17,8 @@ age = "thirty"; // Valid assignment
 
 function printLength(value: number | string) {
 	if (typeof value === "number") {
-		console.log(`number`);
+		value.toString();
 	} else if (typeof value === "string") {
-		console.log(`string`);
+		value.toLowerCase();
 	}
 }
