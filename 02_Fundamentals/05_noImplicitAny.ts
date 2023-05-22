@@ -1,4 +1,4 @@
-// -- noImplicitAny -- //
+// -- 🔷 noImplicitAny -- //
 
 // When we don't specify a type, TypeScript will infer it for us. But what if TypeScript can't infer it? In that case, TypeScript will assign the type 'any' to the variable.
 

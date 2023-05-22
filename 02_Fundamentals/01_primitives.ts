@@ -1,4 +1,4 @@
-// -- The primitives: string, number and boolean -- //
+// -- 🔷 The primitives: string, number and boolean -- //
 
 // In TypeScript, there are three primary primitive types: string, number, and boolean. These types represent basic data types that are commonly used in programming. Let's explore each of these types in detail:
 
