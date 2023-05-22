@@ -15,7 +15,7 @@ let isAvailable = true; // Inferred type: boolean
 let message: string = "Hello, TypeScript!";
 let count: number = 10;
 
-message = count; // Error: Type 'number' is not assignable to type 'string' 🚫
-count = "25"; // Error: Type 'string' is not assignable to type 'number' 🚫
+message = count; // Error: Type 'number' is not assignable to type 'string' ❌
+count = "25"; // Error: Type 'string' is not assignable to type 'number' ❌
 
 // In the above example, TypeScript throws compilation errors as the types of variables are not compatible.

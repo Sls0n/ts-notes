@@ -20,6 +20,6 @@ let numbers_2 = [1, 2, 3, 4, 5]; // Inferred type: number[]
 // You can create read-only arrays by using the readonly modifier. Once declared as read-only, the array cannot be modified.
 
 let fruits_3: readonly string[] = ["apple", "banana", "orange"];
-readonlyArray[0] = "grape"; // Error: Index signature in type 'readonly string[]' only permits reading 🚫
+readonlyArray[0] = "grape"; // Error: Index signature in type 'readonly string[]' only permits reading ❌
 
 // In the above example, trying to modify the elements of the readonlyArray results in a compilation error.
