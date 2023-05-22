@@ -21,3 +21,8 @@ let multiply = (a: number, b: number): number => a * b;
 
 // -- 🔷 Optional Parameters & Default parameters -- //
 function greet_2(name: string = "default", age?: number): void {}
+
+// -- 🔷 Object Types -- //
+function printNums(num: { x: number; y: number }) {
+	console.log(`x: ${num.x}, y: ${num.y}`);
+}
