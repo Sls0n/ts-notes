@@ -13,3 +13,5 @@ let isLogged: boolean = true;
 
 // Here we assigned a value to a variable using the colon (:) followed by the type. This is called a type annotation.
 // The type annotation is used by the TypeScript compiler to analyze the code for type correctness.
+
+// You can also declare a variable without a type annotation. In this case, TypeScript will infer the type based on the assigned value. Explained thoroughly in the next file.

@@ -6,4 +6,4 @@ let greeting = "Hello, TypeScript!"; // Inferred type: string
 let temperature = 25; // Inferred type: number
 let isAvailable = true; // Inferred type: boolean
 
-// In the above example, TypeScript automatically infers the appropriate types based on the assigned values.
+// In the above example, TypeScript automatically infers the appropriate types based on the assigned values even though we didn't explicitly annotate the types.
