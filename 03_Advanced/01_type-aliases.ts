@@ -24,3 +24,17 @@ const person: Person = {
 	name: "John",
 	age: 25,
 };
+
+// -- 🔷 Extending type aliases -- //
+
+// We can also extend type aliases. For example, we can create a type alias for a user object and then extend it to create a type alias for an admin object:
+
+type Man = Person & {
+	isWoman: boolean;
+};
+
+const jack: Man = {
+	name: "Jack",
+	age: 25,
+	isWoman: false,
+};
